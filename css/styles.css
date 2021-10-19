@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+font-size: 18px;
+line-height: 21px;
+background-color: #FFFFFF;
+color: #333333;
+}
+
+.logo{
+  color: #426A6C;
+  background-color: #FBF7F4;
+  background-image: url("../img/index-background.jpg");
+  width: 1200px;
+  background-repeat: no-repeat;
+}
+.newsletter{
+  color: #FFFFFF;
+  background-color: #4682B4;
+  background-image: url("../img/background.jpg");
+  width: 1200px;
+  background-repeat: no-repeat;
+}
+.backgrond-catalog{
+  color: #FFFFFF;
+  background-color: #4682B4;
+  background-image: url("../img/catalog-background.jpg");
+  width: 1200px;
+  background-repeat: no-repeat;
+}
