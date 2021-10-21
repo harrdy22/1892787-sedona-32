@@ -25,6 +25,7 @@ color: #333333;
   background-color: #FBF7F4;
   background-image: url("../img/index-background.jpg");
   width: 1200px;
+  text-align: center;
   background-repeat: no-repeat;
 }
 .newsletter{
@@ -32,6 +33,7 @@ color: #333333;
   background-color: #4682B4;
   background-image: url("../img/background.jpg");
   width: 1200px;
+  text-align: center;
   background-repeat: no-repeat;
 }
 .backgrond-catalog{
@@ -41,3 +43,6 @@ color: #333333;
   width: 1200px;
   background-repeat: no-repeat;
 }
+
+
+
