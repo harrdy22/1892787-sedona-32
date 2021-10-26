@@ -13,12 +13,16 @@
   font-display: swap;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
   font-family: "PT Sans", sans-serif;
-font-size: 18px;
-line-height: 21px;
-background-color: #FFFFFF;
-color: #333333;
-font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-weight: 400;
 }
 
 .logo{
@@ -44,8 +48,21 @@ font-weight: 400;
   width: 1200px;
   background-repeat: no-repeat;
 }
+.navigation{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
 .navigation-list{
+  width: 420px;
+  margin: 0;
+  padding-left: 71px;
+  padding-right: 72px;
   list-style-type: none;
+}
+.navigation-user{
+  max-width: 300px;
+  margin-left: auto;
 }
 .navigation-link {
   font-size: 20px;
@@ -63,10 +80,19 @@ font-weight: 400;
   color: #FFFFFF;
   background-color: #756257;
 }
+.main-container {
+  flex-grow: 1;
+}
+.page-container{
+  width: 1200px;
+  margin: 0 auto;
+}
 .main-title{
   line-height: 36px;
   font-weight: 700;
   font-size: 30px;
+  padding: 63px 240px 23px;
+  margin: 0px;
   text-align: center;
   color: #000000;
   text-transform: uppercase;
@@ -74,25 +100,62 @@ font-weight: 400;
 .main-reasons{
   line-height: 36px;
   font-size: 22px;
+  padding: 0px 240px 79px;
+  margin: 0px;
   text-align: center;
 }
 .features{
   text-align: center;
 }
 .addition-features{
+  display: flex;
   background-color: #83B3D3;
   color: #FFFFFF;
 }
+.features-description-city{
+  display: flex;
+  flex-direction:column;
+  padding: 98px 90px 77px;
+  margin: 0px;
+}
+.features-number{
+  padding-top: 25px;
+  padding-bottom: 26px;
+  margin: 0px;
+}
+.features-description{
+  margin: 0px;
+}
+
 .features-titles{
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  margin: 0px;
   text-transform: uppercase;
 }
+
 .features-list{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
 }
+.title{
+  padding-top: 23px;
+  padding-bottom: 20px;
+}
+
 .features-item{
+  Width: 400px;
+  padding: 184px 75px 79px;
+  background-color:rgba(131, 179, 211, 0.12);
+  color: #333333;
+}
+.features-items{
+  Width: 400px;
+  padding: 98px 75px 77px;
   background-color:rgba(131, 179, 211, 0.12);
   color: #333333;
 }
@@ -106,20 +169,29 @@ font-weight: 400;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  margin: 0px;
   color: #000000;
   text-transform: uppercase;
 }
 .appointment{
   font-size: 22px;
   line-height: 26px;
+  padding: 91px 240px 91px;
+  margin: 0px;
   text-align: center;
 }
 .appointment-title{
   line-height: 36px;
   font-weight: 700;
   font-size: 30px;
+  padding-bottom: 15px;
+  margin: 0px;
   color: #000000;
   text-transform: uppercase;
+}
+.appointment-info{
+  padding-bottom: 73px;
+  margin: 0px;
 }
 .appointment-search{
   font-weight: 700;
@@ -130,15 +202,25 @@ font-weight: 400;
   background-color: #756257;
   color: #FFFFFF;
 }
+.newsletter{
+  display: flex;
+  flex-direction:column;
+  width: 1200px;
+  margin: 0 auto;
+}
 .newsletter-title{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  padding: 94px 200px 15px;
+  margin: 0px;
   text-transform: uppercase;
 }
 .newsletter-info{
+  margin: 0px;
   font-size: 22px;
   line-height: 26px;
+  padding: 0px 200px 26px;
 }
 .button{
   background-color: #83B3D3;
@@ -151,8 +233,25 @@ font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
 }
+.page-footer-container{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-social{
+  max-width: 120px;
+  margin-right: 48px;
+}
 .footer-social-list{
+
   list-style-type: none;
+}
+.htmlacademy-link{
+  margin-left: auto;
+  width: 115px;
+}
+.footer-contacts-address-phone{
+  width: 720px;
 }
 .newsletters{
   text-align: center;

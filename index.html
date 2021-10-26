@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Главная страница - Седона</title>
+  <link rel="stylesheet" href="normalize/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -45,7 +46,8 @@
       </ul>
     </nav>
   </header>
-  <main class="main-index">
+  <main class="main-container main-index">
+    <div class="page-container">
     <div class="logo">
     <img src="img/welcome.svg" width="458" height="352" alt="Welcome to the gorgeous Sedona because the Grand Canyon sucks!">
     </div>
@@ -53,56 +55,62 @@
     <p class="main-reasons">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
     <section class="features">
       <div class="features addition-features">
+        <div class="features-description-city">
         <h2 class="features-titles">Настоящий городок</h2>
         <p class="features-number">№1</p>
         <p class="features-description">Седона-не аттракцион для туристов, там течёт своя жизнь</p>
+      </div>
         <img src="img/city-sedona.jpg" width="800" height="384" alt="город Седона">
       </div>
 
       <ul class="features-list">
         <li class="features-item features-item-house">
-          <h3 class="features-title">Жильё</h3>
+          <h3 class="features-title title">Жильё</h3>
           <p class="features-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </li>
         <li class="features-item features-item-food">
-          <h3 class="features-title">Еда</h3>
+          <h3 class="features-title title">Еда</h3>
           <p class="features-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
         </li>
         <li class="features-item features-item-souvenirs">
-          <h3 class="features-title">Сувениры</h3>
+          <h3 class="features-title title">Сувениры</h3>
           <p class="features-description">Не только китайского, но и настоящего местного производства!</p>
         </li>
       </ul>
       <div class="features addition-features">
         <img src="img/devil-bridge.jpg" width="800" height="384" alt="Мост дьявола">
+        <div class="features-description-city">
         <h3 class="features-titles">Там есть мост дьявола</h3>
-        <p class="feature-number">№2</p>
-        <p class="feature-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+        <p class="features-number">№2</p>
+        <p class="features-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+      </div>
       </div>
       <ul class="features-list">
-        <li class="features-item">
+        <li class="features-items">
           <h3 class="features-title">Небольшая площадь</h3>
-          <p class="feature-number">№3</p>
+          <p class="features-number">№3</p>
           <p class="features-description">Все достопримечательности находятся очень близко</p>
         </li>
-        <li class="features-item features-item-road">
+        <li class="features-items features-item-road">
           <h3 class="features-title">Красивая дорога</h3>
-          <p class="feature-number">№4</p>
+          <p class="features-number">№4</p>
           <p class="features-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </li>
-        <li class="features-item">
+        <li class="features-items">
           <h3 class="features-title">Мало туристов</h3>
-          <p class="feature-number">№5</p>
+          <p class="features-number">№5</p>
           <p class="features-description">Большинство едет в Гранд Каньон и толпится там</p>
         </li>
       </ul>
     </section>
+
     <section class="appointment">
       <h2 class="appointment-title">Заинтересовались?</h2>
       <p class="appointment-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
         Cедоне</p>
       <a class="appointment-search" href="#">Поиск гостиницы в Седоне</a>
     </section>
+  </div>
   </main>
   <footer class="page-footer">
     <div class="newsletter">
@@ -117,6 +125,7 @@
         <button class="button newsletter-button" type="submit">Подписаться</button>
       </form>
     </div>
+    <div class="page-footer-container">
     <div class="footer-social">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
@@ -141,6 +150,7 @@
     <a class="htmlacademy-link" href="https://htmlacademy.ru/">
       <img src="img/logo_htmlacademy.svg" width="115" height="34" alt=".html academy">
     </a>
+  </div>
   </footer>
 </body>
 
