@@ -34,12 +34,17 @@ body {
   background-repeat: no-repeat;
 }
 .newsletter{
+  display: flex;
+  flex-direction:column;
   color: #FFFFFF;
   background-color: #4682B4;
   background-image: url("../img/background.jpg");
   width: 1200px;
   text-align: center;
   background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .backgrond-catalog{
   color: #FFFFFF;
@@ -50,19 +55,22 @@ body {
 }
 .navigation{
   display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
   width: 1200px;
-  margin: 0 auto;
-}
-.navigation-list{
-  width: 420px;
-  margin: 0;
   padding-left: 71px;
   padding-right: 72px;
+  margin: 0 auto;
+}
+
+.navigation-list{
+  width: 360px;
+  margin: 0;
+  padding: 0px;
   list-style-type: none;
 }
 .navigation-user{
-  max-width: 300px;
-  margin-left: auto;
+  max-width: 360px;
 }
 .navigation-link {
   font-size: 20px;
@@ -87,21 +95,26 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
 .main-title{
   line-height: 36px;
   font-weight: 700;
   font-size: 30px;
-  padding: 63px 240px 23px;
-  margin: 0px;
+  margin: 0 auto;
+  margin-top: 63px;
+  margin-bottom: 23px;
   text-align: center;
+  width: 720px;
   color: #000000;
   text-transform: uppercase;
 }
+
 .main-reasons{
   line-height: 36px;
   font-size: 22px;
-  padding: 0px 240px 79px;
-  margin: 0px;
+  margin: 0 auto;
+  margin-bottom: 69px;
+  width: 720px;
   text-align: center;
 }
 .features{
@@ -176,22 +189,24 @@ body {
 .appointment{
   font-size: 22px;
   line-height: 26px;
-  padding: 91px 240px 91px;
-  margin: 0px;
+  margin-top: 91px;
+  margin-bottom: 108px;
   text-align: center;
 }
 .appointment-title{
   line-height: 36px;
   font-weight: 700;
   font-size: 30px;
-  padding-bottom: 15px;
-  margin: 0px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 720px;
   color: #000000;
   text-transform: uppercase;
 }
 .appointment-info{
-  padding-bottom: 73px;
-  margin: 0px;
+  margin: 0 auto;
+  margin-bottom: 73px;
+  width: 720px;
 }
 .appointment-search{
   font-weight: 700;
@@ -201,26 +216,28 @@ body {
   text-transform: uppercase;
   background-color: #756257;
   color: #FFFFFF;
+  width: 575px;
 }
-.newsletter{
-  display: flex;
-  flex-direction:column;
-  width: 1200px;
-  margin: 0 auto;
-}
+
 .newsletter-title{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  padding: 94px 200px 15px;
-  margin: 0px;
+  width: 720px;
+  margin: 0 auto;
+  padding-bottom: 15px;
   text-transform: uppercase;
 }
 .newsletter-info{
-  margin: 0px;
+  width: 720px;
+  margin: 0 auto;
+  padding-bottom: 26px;
   font-size: 22px;
   line-height: 26px;
-  padding: 0px 200px 26px;
+}
+.email-form{
+  margin-top: 0px;
+
 }
 .button{
   background-color: #83B3D3;
@@ -235,19 +252,20 @@ body {
 }
 .page-footer-container{
   display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
   width: 1200px;
+  padding-left: 72px;
+  padding-right: 72px;
   margin: 0 auto;
 }
 .footer-social{
   max-width: 120px;
-  margin-right: 48px;
 }
 .footer-social-list{
-
   list-style-type: none;
 }
 .htmlacademy-link{
-  margin-left: auto;
   width: 115px;
 }
 .footer-contacts-address-phone{
@@ -285,6 +303,7 @@ body {
 .breadcrumbs-link{
   font-size: 16px;
 }
+
 .catalog-filter-title{
   font-weight: 700;
   font-size: 20px;
