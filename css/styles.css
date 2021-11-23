@@ -251,13 +251,18 @@ body {
 .features-description{
   margin: 0px;
 }
-
+.features-house{
+  width: 177px;
+  padding-left: 35px;
+}
 .features-titles{
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   margin: 0px;
   text-transform: uppercase;
+  width: 172px;
+  padding-left: 23px;
 }
 
 .features-list{
@@ -299,6 +304,8 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  width: 177px;
+  padding-left: 37px;
   margin: 0px;
   color: #000000;
   text-transform: uppercase;
